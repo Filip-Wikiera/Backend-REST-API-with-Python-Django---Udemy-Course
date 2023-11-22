@@ -7,3 +7,8 @@ class CalcTest(SimpleTestCase):
         resolutin = calc.add(5,6)
 
         self.assertEqual(resolutin,11)
+    
+    def test_subtract_numbers(self):
+        resolutin = calc.subtract(10,6)
+
+        self.assertEqual(resolutin,4)
